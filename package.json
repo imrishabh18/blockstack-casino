@@ -8,7 +8,7 @@
     },
     "main": "main.js",
     "scripts": {
-        "start": "npm run start:dev",
+        "start": "npm run start:prod",
         "start:dev": "webpack-dev-server --mode development --hot --display-error-details --progress",
         "start:prod": "webpack-dev-server --mode production --hot --display-error-details --progress",
         "build": "npm run build:prod",
