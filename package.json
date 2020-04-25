@@ -6,7 +6,7 @@
     "author": {
         "name": "Chris Buonocore"
     },
-    "main": "index.js",
+    "main": "main.js",
     "scripts": {
         "start": "npm run start:dev",
         "start:dev": "webpack-dev-server --mode development --hot --display-error-details --progress",
@@ -22,8 +22,7 @@
         "clean": "npm run distclean && npm run nodeclean",
         "distclean": "rm -rf dist",
         "nodeclean": "rm -rf node_modules",
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "heroku-prebuild": "yarn install --production=false"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "dependencies": {
         "blockstack": "^19.2.5",
