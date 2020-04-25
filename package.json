@@ -22,7 +22,8 @@
         "clean": "npm run distclean && npm run nodeclean",
         "distclean": "rm -rf dist",
         "nodeclean": "rm -rf node_modules",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "heroku-prebuild": "yarn install --production=false"
     },
     "dependencies": {
         "blockstack": "^19.2.5",
